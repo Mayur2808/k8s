@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend-app
-        image: mayur2808/mayur2808:project
+        image: mayur2808/mayur:project
         ports:
         - name: tomcat
           containerPort: 8080
